@@ -97,17 +97,200 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* -------------------- Base Header/Footer Styles -------------------- */
+
+header, footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* -------------------- Header Styles -------------------- */
+
+header {
+
+}
+
+header .content-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+header figure {
+
+}
+
+.header-divider {
+
+}
+
+header nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ul {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* -------------------- Mobile Styles - Homepage -------------------- */
+
+.hero-area {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hero-area .content-wrapper {
+
+}
+
+aside {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+aside .content-wrapper {
+
+}
+
+.form-description {
+
+}
+
+.form {
+
+}
+
+input {
+
+}
+
+.features {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+article .features-items {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.reviews {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.reviews .content-wrapper {
+
+}
+
+.reviews article {
+
+}
+
+.reviews article img {
+
+}
+
+/* -------------------- Mobile Styles - About Page -------------------- */
+.mission {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.mission .content-wrapper {
+
+}
+
+.mission .mission-content {
+
+}
+
+.map {
+
+}
+
+.map figure {
+
+}
+
+.contact-section {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contact-section .content-wrapper {
+
+}
+
+.contact-section .contact-content {
+
+}
 
 
 
+/* -------------------- Mobile Styles - FAQ Page -------------------- */
 
+.faq {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
 
+.faq .content-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
 
+.faq-content {
 
+}
 
+/* Footer */
 
+footer {
 
+}
 
+footer .content-wrapper {
+
+}
+
+footer .footer-content {
+
+}
+
+footer address .contact {
+
+}
+
+footer .social {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+footer .social-icons {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+footer .copyright {
+
+}
 
 
 
