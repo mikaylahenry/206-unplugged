@@ -96,25 +96,33 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
 
 /* -------------------- Base Header/Footer Styles -------------------- */
 
 header, footer {
   align-items: center;
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
 }
 
 /* -------------------- Header Styles -------------------- */
 
 header {
-
+  padding: 15px 0;
 }
 
 header .content-wrapper {
   align-items: center;
   display: flex;
+  flex-flow: row wrap;
   justify-content: flex-start;
+  margin: 0;
 }
 
 header figure {
@@ -122,89 +130,136 @@ header figure {
 }
 
 .header-divider {
-
+  height: 1px;
+  margin: 10px 0 20px 0;
+  width: 100%;
 }
 
 header nav {
   align-items: center;
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-around;
+  width: 60%;
 }
 
 header nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+/* Footer */
+
+footer {
+  flex-direction: column;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+  margin: 50px 0;
+  width: 55%;
+}
+
+footer .contact {
+  margin-bottom: 50px;
+}
+
+footer .footer-content {
+}
+
+footer address .contact {
+
+}
+
+footer .social-icons {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .social-icons p {
   align-items: center;
   display: flex;
   justify-content: center;
 }
 
+footer .social {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .copyright {
+  margin: 20px 0;
+}
+
+
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
 .hero-area {
-  align-items: center;
   display: flex;
-  justify-content: flex-start;
-}
-
-.hero-area .content-wrapper {
-
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 aside {
   align-items: center;
   display: flex;
+  flex-flow: row wrap;
   justify-content: flex-start;
-}
-
-aside .content-wrapper {
-
-}
-
-.form-description {
-
-}
-
-.form {
-
-}
-
-input {
-
 }
 
 .features {
-  align-items: center;
   display: flex;
+  flex-flow: row wrap;
   justify-content: flex-start;
 }
 
-article .features-items {
+.features h2 {
+  margin-bottom: 60px;
+}
+
+.features article {
+  width: 55%;
+  margin: 30px 0;
+}
+
+.features .features-items {
   align-items: center;
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
 }
 
+.features p {
+  margin: 0;
+}
+
 .reviews {
-  align-items: center;
   display: flex;
-  justify-content: flex-start;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
-.reviews .content-wrapper {
-
+.reviews h2 {
+  margin-bottom: 40px;
 }
 
-.reviews article {
-
+.review h3 {
+  width: 55%;
+  margin: 20px 0;
 }
 
-.reviews article img {
-
-}
 
 /* -------------------- Mobile Styles - About Page -------------------- */
 .mission {
   align-items: center;
   display: flex;
+  flex-flow: row wrap;
   justify-content: flex-start;
 }
 
@@ -227,14 +282,16 @@ article .features-items {
 .contact-section {
   align-items: center;
   display: flex;
-  justify-content: flex-start;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .contact-section .content-wrapper {
 
 }
 
-.contact-section .contact-content {
+.contact-content p {
+  margin: 0;
 
 }
 
@@ -245,53 +302,25 @@ article .features-items {
 .faq {
   align-items: center;
   display: flex;
+  flex-flow: row wrap;
   justify-content: flex-start;
 }
 
 .faq .content-wrapper {
   align-items: center;
   display: flex;
-  justify-content: flex-start;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 50px 0 0 0;
+}
+
+.faq h2 {
+  margin-bottom: 40px;
 }
 
 .faq-content {
-
+  margin-bottom: 50px;
 }
-
-/* Footer */
-
-footer {
-
-}
-
-footer .content-wrapper {
-
-}
-
-footer .footer-content {
-
-}
-
-footer address .contact {
-
-}
-
-footer .social {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
-footer .social-icons {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
-footer .copyright {
-
-}
-
 
 
 
