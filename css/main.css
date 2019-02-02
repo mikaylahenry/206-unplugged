@@ -110,6 +110,8 @@ body {
 
 ul, ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -126,6 +128,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
 
 h3, h4 {
@@ -238,13 +241,6 @@ footer .contact {
   margin-bottom: 50px;
 }
 
-footer .footer-content {
-}
-
-footer address .contact {
-
-}
-
 footer .social-icons {
   align-items: center;
   display: flex;
@@ -253,8 +249,16 @@ footer .social-icons {
 
 footer .social-icons p {
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
   display: flex;
+  height: 40px;
   justify-content: center;
+  width: 40px;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .social {
@@ -281,10 +285,6 @@ footer .copyright {
 
 .hero-area h1 {
   font-size: 2.25em;
-}
-
-.hero-area .content-wrapper {
-
 }
 
 aside {
@@ -344,6 +344,11 @@ input[type=button] {
   justify-content: center;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .features p {
   margin: 0;
   text-align: center;
@@ -376,14 +381,6 @@ input[type=button] {
   justify-content: center;;
 }
 
-.mission .content-wrapper {
-
-}
-
-.mission .mission-content {
-
-}
-
 .map figure {
   height: 0;
   overflow: hidden;
@@ -400,20 +397,12 @@ input[type=button] {
   width: 100%;
 }
 
-.map figure {
-
-}
-
 .contact-section {
   align-items: center;
   background-color: #2a423a;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-}
-
-.contact-section .content-wrapper {
-
 }
 
 .contact-content p {
@@ -454,9 +443,6 @@ input[type=button] {
   line-height: 1.333;
   font-weight: 700;
 }
-
-
-
 
 /* ==========================================================================
    Helper classes
@@ -620,6 +606,10 @@ input[type=button] {
     width: 50%;
   }
 
+  .features i {
+    margin-bottom: 30px;
+  }
+
   .reviews article {
     display: flex;
     justify-content: space-between;
@@ -629,7 +619,7 @@ input[type=button] {
     width: 90%;
   }
 
-  .reviews article div {
+  .reviews article figure, .reviews article div {
     width: 49%;
   }
 
@@ -663,6 +653,11 @@ input[type=button] {
     line-height: 1.285;
   }
 
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
+
   footer .copyright {
     width: 100%;
   }
@@ -678,7 +673,7 @@ input[type=button] {
   }
 
   .map figure {
-    padding-bottom: 45%;
+    padding-bottom: 58.5%;
   }
 
   .contact-section, .content-wrapper h2 {
@@ -737,25 +732,6 @@ input[type=button] {
     width: 60%;
   }
 
-  /*footer .content-wrapper {
-    width: 80%;
-    margin: 100px 0;
-  }
-
-  .footer-content {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  footer .contact {
-    margin-bottom: 0;
-  }
-
-  footer .copyright {
-    width: 100%;
-  }
-*/
   aside .content-wrapper {
     justify-content: space-around;
   }
@@ -776,11 +752,6 @@ input[type=button] {
     flex-basis: 33%;
   }
 
-  .features i {
-    font-size: 3.75em;
-    margin-bottom: 40px;
-  }
-
   .reviews article div {
     width: 42%;
   }
@@ -791,7 +762,7 @@ input[type=button] {
   }
 
   .map figure {
-    padding-bottom: 37%;
+    padding-bottom: 32.5%;
   }
 
   .contact-section .content-wrapper h2 {
