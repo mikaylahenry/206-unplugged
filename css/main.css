@@ -384,8 +384,20 @@ input[type=button] {
 
 }
 
-.map {
+.map figure {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 93%;
+  position: relative;
+  width: 100%;
+}
 
+.map iframe {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 .map figure {
