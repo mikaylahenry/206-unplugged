@@ -585,7 +585,7 @@ input[type=button] {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    margin: 50px 0;
+    margin: 20px auto;
   }
 
   aside .content-wrapper .form-description, aside .content-wrapper .form {
@@ -625,6 +625,10 @@ input[type=button] {
 
   .reviews article figure, .reviews article div {
     width: 49%;
+  }
+
+  .reviews article div {
+    margin-top: -25px;
   }
 
   .reviews h3 {
@@ -680,7 +684,11 @@ input[type=button] {
     padding-bottom: 58.5%;
   }
 
-  .contact-section, .content-wrapper h2 {
+  .contact-section {
+    width: 100%;
+  }
+
+  .content-wrapper h2 {
     width: 80%;
   }
 
